@@ -114,7 +114,7 @@ public class HfInference {
 			return url
 		}
 		
-		let baseUrl = "https://router.huggingface.co/hf-inference/v1"
+		let baseUrl = "https://router.huggingface.co/hf-inference"
 		if let task {
 			return URL(string: "\(baseUrl)/pipeline/\(task)/\(model)")!
 		}
